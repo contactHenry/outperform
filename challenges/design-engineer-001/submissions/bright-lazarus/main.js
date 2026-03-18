@@ -1,8 +1,6 @@
 const mobileToggle = document.querySelector('.mobile-toggle');
 const nav = document.querySelector('.nav');
 const siteHeader = document.querySelector('.site-header');
-const heroHeadline = document.getElementById('hero-headline');
-const heroSubtitle = document.getElementById('hero-subtitle');
 
 let rafScheduled = false;
 const syncHeaderState = () => {
@@ -20,26 +18,6 @@ window.addEventListener('scroll', () => {
 });
 
 syncHeaderState();
-
-const setHeadlineVariant = (variant) => {
-  if (!heroHeadline || !heroSubtitle) return;
-  heroHeadline.textContent = heroHeadline.dataset[`variant${variant.toUpperCase()}`] || heroHeadline.textContent;
-  heroSubtitle.textContent = heroSubtitle.dataset[`variant${variant.toUpperCase()}`] || heroSubtitle.textContent;
-
-  for (const button of document.querySelectorAll('.variant-btn')) {
-    const isActive = button.dataset.variant === variant;
-    button.classList.toggle('is-active', isActive);
-    button.setAttribute('aria-pressed', String(isActive));
-  }
-};
-
-for (const button of document.querySelectorAll('.variant-btn')) {
-  button.addEventListener('click', () => {
-    const variant = button.dataset.variant;
-    if (!variant) return;
-    setHeadlineVariant(variant);
-  });
-}
 
 const setVisualVariant = (variant) => {
   for (const button of document.querySelectorAll('.visual-btn')) {
