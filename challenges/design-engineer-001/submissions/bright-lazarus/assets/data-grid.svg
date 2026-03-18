@@ -1,0 +1,16 @@
+<svg width="680" height="320" viewBox="0 0 680 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="678" height="318" rx="18" stroke="#E2E8F0"/>
+  <g opacity="0.7">
+    <line x1="40" y1="64" x2="640" y2="64" stroke="#EEF3FB"/>
+    <line x1="40" y1="112" x2="640" y2="112" stroke="#EEF3FB"/>
+    <line x1="40" y1="160" x2="640" y2="160" stroke="#EEF3FB"/>
+    <line x1="40" y1="208" x2="640" y2="208" stroke="#EEF3FB"/>
+    <line x1="40" y1="256" x2="640" y2="256" stroke="#EEF3FB"/>
+  </g>
+  <path d="M52 222C95 206 111 127 160 123C214 119 215 179 275 175C334 171 338 98 396 96C450 94 458 158 512 161C562 164 579 133 628 118" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M52 250C95 247 101 212 157 205C211 199 222 237 274 228C332 218 336 162 392 160C449 158 461 219 515 221C561 223 584 198 628 184" stroke="#1B2B4B" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+  <circle cx="160" cy="123" r="7" fill="#3B82F6"/>
+  <circle cx="396" cy="96" r="7" fill="#3B82F6"/>
+  <circle cx="512" cy="161" r="7" fill="#F59E0B"/>
+  <circle cx="274" cy="228" r="6" fill="#1B2B4B"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="638" height="418" rx="20" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <path d="M118 320C160 278 188 250 238 244C298 236 334 286 394 282C452 278 488 224 532 180" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M108 346C155 326 180 290 230 286C292 281 328 334 390 328C446 323 482 278 520 244" stroke="#1B2B4B" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="118" cy="320" r="9" fill="#3B82F6"/>
+  <circle cx="238" cy="244" r="9" fill="#3B82F6"/>
+  <circle cx="394" cy="282" r="9" fill="#F59E0B"/>
+  <circle cx="532" cy="180" r="9" fill="#3B82F6"/>
+  <circle cx="230" cy="286" r="8" fill="#1B2B4B"/>
+  <circle cx="390" cy="328" r="8" fill="#1B2B4B" opacity="0.85"/>
+
+  <rect x="72" y="76" width="158" height="84" rx="12" fill="white" stroke="#E2E8F0"/>
+  <text x="88" y="102" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="12">Engagement risk</text>
+  <text x="88" y="134" fill="#1B2B4B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">-18%</text>
+
+  <rect x="248" y="60" width="170" height="100" rx="12" fill="white" stroke="#E2E8F0"/>
+  <text x="264" y="88" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="12">Forecast confidence</text>
+  <text x="264" y="126" fill="#1B2B4B" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">91%</text>
+
+  <rect x="438" y="82" width="132" height="78" rx="12" fill="white" stroke="#E2E8F0"/>
+  <text x="454" y="108" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="12">At-risk deals</text>
+  <text x="454" y="138" fill="#1B2B4B" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">7</text>
+
+  <rect x="82" y="182" width="486" height="26" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="100" y="200" fill="#64748B" font-family="Inter, Arial, sans-serif" font-size="12">Signalflow prioritizes manager interventions by expected quarter impact.</text>
+</svg>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signalflow | Pipeline Intelligence Platform</title>
+  <meta name="description" content="Signalflow helps VP Sales and RevOps teams forecast accurately by unifying CRM, marketing, and product signals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="wordmark" href="#top" aria-label="Signalflow home">signalflow</a>
+      <button class="mobile-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a href="#platform">Platform</a>
+        <a href="#results">Results</a>
+        <a href="#workflow">How it works</a>
+        <a href="#cta" class="nav-cta">Start free trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal-up">
+          <p class="hero-eyebrow">Live in one week: CRM, MAP, product, and call signals in one model</p>
+          <h1 id="hero-headline" data-variant-a="Call the quarter with fewer surprises." data-variant-b="Protect board commits before risk compounds.">Call the quarter with fewer surprises.</h1>
+          <p class="hero-subtitle" id="hero-subtitle" data-variant-a="Signalflow surfaces commit risk early, explains what changed, and gives managers a clear intervention plan before forecast meetings." data-variant-b="Signalflow pinpoints pipeline instability early so CROs and RevOps leaders can intervene before forecast confidence drops.">
+            Signalflow surfaces commit risk early, explains what changed, and gives managers a clear intervention plan before forecast meetings.
+          </p>
+          <div class="headline-switch" role="group" aria-label="Headline variants">
+            <button type="button" class="variant-btn is-active" data-variant="a" aria-pressed="true">A</button>
+            <button type="button" class="variant-btn" data-variant="b" aria-pressed="false">B</button>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#cta">Start free trial</a>
+            <a class="btn btn-secondary" href="#platform">See signal workflow</a>
+          </div>
+          <div class="hero-cro-module">
+            <p><strong>Quarter close in 19 days</strong><span>7 at-risk deals flagged with owner-level next actions.</span></p>
+            <p><strong>Next forecast call in 48h</strong><span>Commit delta and confidence shifts already summarized.</span></p>
+            <p><strong>Board update ready</strong><span>Confidence bands generated from current engagement and usage signals.</span></p>
+          </div>
+          <div class="proof-row">
+            <p><strong data-count="34" data-suffix="%">34%</strong> higher win rate</p>
+            <p><strong data-count="2.3" data-suffix="x" data-decimal="true">2.3x</strong> faster velocity</p>
+            <p><strong data-count="91" data-suffix="%">91%</strong> forecast accuracy</p>
+          </div>
+        </div>
+
+        <aside class="signal-board reveal-up delay-1" aria-label="Signalflow dashboard preview">
+          <div class="visual-variant-switch" role="group" aria-label="Hero illustration variant">
+            <button type="button" class="visual-btn is-active" data-visual="board" aria-pressed="true">Board</button>
+            <button type="button" class="visual-btn" data-visual="map" aria-pressed="false">Signal map</button>
+          </div>
+          <img class="board-motif" src="assets/data-orbit.svg" alt="" aria-hidden="true" />
+          <div class="board-head">
+            <p>Executive signal board</p>
+            <span>updated 3m ago</span>
+          </div>
+          <div class="hero-visual-panel is-active" data-visual-panel="board">
+            <div class="board-kpis">
+              <article>
+                <p>Likely to close</p>
+                <h3>18</h3>
+              </article>
+              <article>
+                <p>Needs intervention</p>
+                <h3>7</h3>
+              </article>
+              <article>
+                <p>Forecast confidence</p>
+                <h3>91%</h3>
+              </article>
+            </div>
+            <div class="board-chart" aria-label="Opportunity health chart">
+              <div class="bar" style="--bar-height: 88%"></div>
+              <div class="bar" style="--bar-height: 64%"></div>
+              <div class="bar" style="--bar-height: 49%"></div>
+              <div class="bar" style="--bar-height: 74%"></div>
+              <div class="bar" style="--bar-height: 36%"></div>
+              <div class="bar" style="--bar-height: 81%"></div>
+              <div class="bar" style="--bar-height: 58%"></div>
+              <div class="bar" style="--bar-height: 70%"></div>
+            </div>
+            <div class="board-list">
+              <article>
+                <div>
+                  <h4>Northwind Renewal · $96k</h4>
+                  <p>Champion activity +28%, procurement opened MSA.</p>
+                </div>
+                <span class="tag tag-good">healthy</span>
+              </article>
+              <article>
+                <div>
+                  <h4>Acme Expansion · $184k</h4>
+                  <p>Usage dropped and decision-maker changed role.</p>
+                </div>
+                <span class="tag tag-risk">at risk</span>
+              </article>
+              <article>
+                <div>
+                  <h4>Vertex Security · $132k</h4>
+                  <p>High buyer intent, no technical validation yet.</p>
+                </div>
+                <span class="tag tag-watch">watch</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual-panel" data-visual-panel="map">
+            <figure class="hero-map-figure">
+              <img src="assets/hero-signal-map.svg" alt="Signal map showing confidence, risk, and trend convergence." />
+              <figcaption>Signalflow map: one view for commit confidence, risk movement, and manager intervention timing.</figcaption>
+            </figure>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container">
+        <p>Trusted by 200+ B2B revenue teams</p>
+        <div class="trust-grid">
+          <span>NORTHWIND</span>
+          <span>ALPINE</span>
+          <span>STACKLINE</span>
+          <span>MERIDIAN</span>
+          <span>HORIZON</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="platform">
+      <div class="container">
+        <header class="section-head reveal-up">
+          <p class="section-kicker">Platform</p>
+          <h2>A single intelligence layer for every commit decision.</h2>
+          <p>Signalflow connects your core systems and turns noisy activity into actions your managers can run this week.</p>
+        </header>
+
+        <div class="feature-stack">
+          <article class="feature-block reveal-up">
+            <div class="feature-copy">
+              <span class="feature-index">01</span>
+              <h3>Risk scoring tuned to your actual sales motion</h3>
+              <p>Learns from won/lost history and active engagement shifts so commit confidence is data-backed, not anecdotal.</p>
+            </div>
+            <div class="feature-visual score-visual" aria-hidden="true">
+              <div><label>Enterprise expansion</label><span style="--value: 92%"></span></div>
+              <div><label>Mid-market renewal</label><span style="--value: 77%"></span></div>
+              <div><label>Net-new inbound</label><span style="--value: 61%"></span></div>
+              <div><label>Outbound pilot</label><span style="--value: 39%"></span></div>
+            </div>
+          </article>
+
+          <article class="feature-block reverse reveal-up delay-1">
+            <div class="feature-copy">
+              <span class="feature-index">02</span>
+              <h3>Signal feed that catches momentum change early</h3>
+              <p>Detects meaningful changes across product usage, call sentiment, and buyer engagement before deals slip a stage.</p>
+            </div>
+            <div class="feature-visual feed-visual" aria-hidden="true">
+              <p><em></em>Pricing page viewed 3 times in 24h</p>
+              <p><em></em>Champion invited security stakeholder</p>
+              <p><em></em>Negative sentiment in late-stage call</p>
+              <p><em></em>Weekly active seats down 18%</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card reveal-up">
+            <h4>Forecast confidence bands</h4>
+            <p>Give leadership a realistic forecast range with explicit assumptions and sensitivity by segment.</p>
+          </article>
+          <article class="info-card reveal-up delay-1">
+            <h4>Manager intervention queue</h4>
+            <p>Prioritized actions for reps where intervention can still change quarter outcomes.</p>
+          </article>
+          <article class="info-card reveal-up delay-2">
+            <h4>Signal alert routing</h4>
+            <p>Send critical shifts to Slack and email with enough context for immediate execution.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section results" id="results">
+      <div class="container">
+        <header class="section-head reveal-up">
+          <p class="section-kicker">Outcomes</p>
+          <h2>Outcomes teams report after moving off gut-forecasting.</h2>
+        </header>
+        <div class="result-grid">
+          <article class="result-card reveal-up">
+            <h3><span data-count="34" data-suffix="%">34%</span></h3>
+            <p>average increase in win rate after 60 days</p>
+          </article>
+          <article class="result-card reveal-up delay-1">
+            <h3><span data-count="2.3" data-suffix="x" data-decimal="true">2.3x</span></h3>
+            <p>faster stage progression for high-intent deals</p>
+          </article>
+          <article class="result-card reveal-up delay-2">
+            <h3><span data-count="91" data-suffix="%">91%</span></h3>
+            <p>forecast accuracy at quarter close</p>
+          </article>
+        </div>
+
+        <blockquote class="quote reveal-up delay-2">
+          "Signalflow changed our forecast cadence. We stopped debating opinions and started protecting commit with evidence."
+          <cite>Sarah Chen, VP Revenue Operations, Northwind SaaS</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section" id="workflow">
+      <div class="container">
+        <header class="section-head reveal-up">
+          <p class="section-kicker">How It Works</p>
+          <h2>Operational quickly, useful by your next commit call.</h2>
+        </header>
+
+        <div class="workflow-grid">
+          <article class="step-card reveal-up">
+            <span>1</span>
+            <h3>Connect your systems</h3>
+            <p>Integrate Salesforce, HubSpot, product analytics, and conversation tools with guided setup.</p>
+          </article>
+          <article class="step-card reveal-up delay-1">
+            <span>2</span>
+            <h3>Calibrate your model</h3>
+            <p>Signalflow calibrates to your historical outcomes and current engagement patterns automatically.</p>
+          </article>
+          <article class="step-card reveal-up delay-2">
+            <span>3</span>
+            <h3>Run one operating rhythm</h3>
+            <p>Use a shared view for pipeline reviews, forecast calls, and rep coaching priorities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="cta">
+      <div class="container cta-panel reveal-up">
+        <p class="section-kicker">Start now</p>
+        <h2>Protect this quarter before risk compounds.</h2>
+        <p>Give sales leadership and RevOps one signal layer for faster intervention and more reliable board commits.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#top">Start free trial</a>
+          <a class="btn btn-secondary" href="#top">Book leadership demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>signalflow</p>
+      <small>© <span id="year"></span> Signalflow, Inc. All rights reserved.</small>
+      <div>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
